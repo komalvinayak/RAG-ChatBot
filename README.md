@@ -202,8 +202,26 @@ eagle_trans_ai_assistant/
 - Windows 10 or 11
 - Python 3.11 — download from python.org (tick "Add to PATH" on install)
 - Ollama — download from ollama.com
+- Free Groq API key — sign up at console.groq.com
 
-### Step 1 — Pull the embedding model
+---
+
+### Step 1 — Get the project files
+
+**Option A — Download ZIP (Easiest)**
+1. Click the green **Code** button on this page
+2. Click **Download ZIP**
+3. Extract the folder to your preferred location
+
+**Option B — Clone with Git**
+```bash
+git clone https://github.com/komalvinayak/RAG-ChatBot.git
+cd RAG-ChatBot
+```
+
+---
+
+### Step 2 — Pull the embedding model
 
 Open PowerShell and run:
 
@@ -211,16 +229,13 @@ Open PowerShell and run:
 ollama pull nomic-embed-text
 ```
 
-Note: The language model (openai/gpt-oss-20b) runs on Groq cloud — no local download needed for Version 2.
+Note: The language model (openai/gpt-oss-20b) runs on Groq cloud — no local download needed.
 
-### Step 2 — Clone this repo
-
-```bash
-git clone https://github.com/komalvinayak/eagle-trans-ai-assistant.git
-cd eagle-trans-ai-assistant
-```
+---
 
 ### Step 3 — Create virtual environment
+
+Navigate to the project folder in PowerShell, then run:
 
 ```bash
 py -3.11 -m venv venv
@@ -228,6 +243,8 @@ venv\Scripts\activate
 ```
 
 You will see `(venv)` at the start of your prompt.
+
+---
 
 ### Step 4 — Install dependencies
 
@@ -237,16 +254,17 @@ pip install -r requirements.txt
 
 Takes 3 to 5 minutes. Wait until the prompt returns.
 
+---
+
 ### Step 5 — Add your Groq API key
 
-Get a free API key from console.groq.com then open `config.py`:
+Open `config.py` and add your key:
 
 ```python
 GROQ_API_KEY = "your_groq_api_key_here"
 GROQ_LLM_MODEL = "openai/gpt-oss-20b"
 ```
-
-> **Security note:** Never commit your real API key to GitHub. Add `config.py` to `.gitignore` or use environment variables in production.
+---
 
 ### Step 6 — Add documents
 
@@ -256,6 +274,8 @@ Place your files in the correct folders:
 data/sops/     → GermanySOP.pdf, GermanySOP.docx
 data/excel/    → Germany_Dummy_Data.xlsx
 ```
+
+---
 
 ### Step 7 — Build the knowledge base
 
@@ -274,15 +294,18 @@ Done. The knowledge base is ready.
 
 Run this again any time documents change.
 
+---
+
 ### Step 8 — Launch the app
 
 ```bash
 streamlit run app.py --server.port 8502
 ```
 
-Browser opens at `http://localhost:8502`. Make sure Ollama is running in the system tray.
+Browser opens at `http://localhost:8502`
 
----
+Make sure Ollama is running in the system tray before launching.
+
 
 ## Example Questions to Ask
 
