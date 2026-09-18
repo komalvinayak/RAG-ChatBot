@@ -76,15 +76,14 @@ This assistant makes all of that searchable in plain English. You type a questio
 
 ---
 
-## Video
-
-<video src="Final_Demo.mp4" autoplay muted loop width="100%"></video>
-
-
 ## Screenshots
+
 ![Alt Text](Screenshot1.png)
+
 ![Alt Text](Screenshot2.png)
+
 ![Alt Text](Screenshot3.png)
+
 ## What It Reads
 
 | Document | Type | What It Contains |
