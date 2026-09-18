@@ -436,12 +436,3 @@ GitHub: [komalvinayak](https://github.com/komalvinayak)
 ## License
 
 Built during an internship at Xenage Solutions Pvt. Ltd. (Eagle Inbrit Group). Shared for educational purposes. Internal company documents, SOPs, and real data are not included in this repository.
-
----
-
-## Security Reminder
-
-Before pushing to GitHub:
-- Remove or rotate the Groq API key visible in `app.py` and `config.py`
-- Add `config.py` to `.gitignore`
-- Use environment variables for all API keys in production
