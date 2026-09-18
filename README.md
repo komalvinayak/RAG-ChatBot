@@ -22,10 +22,7 @@ This assistant makes all of that searchable in plain English. You type a questio
 ## Live Demo Screenshots
 
 | Empty interface | Searching | Answer with source |
-|---|---|---|
-| Chat box at the bottom | "Searching internal knowledge..." | Answer + Sources section |
 
----
 
 ## How It Works — Simple Flow
 
@@ -87,8 +84,6 @@ This assistant makes all of that searchable in plain English. You type a questio
 |---|---|---|
 | Germany Operations SOP | PDF (9 pages) | Procedures, VGM steps, customs rules, country restrictions |
 | Shipment Tracking Excel | Excel — 3 sheets, 100+ rows | Booking records, incharge details, transporter history |
-| Customer Preferences | Excel sheet | Preferred loading yard, transporter, loading type per customer |
-| Germany POL Free Days | Excel sheet | Terminal free days and container delivery deadlines |
 
 ---
 
