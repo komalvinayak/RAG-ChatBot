@@ -19,10 +19,6 @@ This assistant makes all of that searchable in plain English. You type a questio
 
 ---
 
-## Live Demo Screenshots
-
-| Empty interface | Searching | Answer with source |
-
 
 ## How It Works — Simple Flow
 
