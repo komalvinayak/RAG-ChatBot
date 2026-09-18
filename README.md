@@ -284,14 +284,6 @@ Browser opens at `http://localhost:8502`. Make sure Ollama is running in the sys
 
 ---
 
-## Daily Run Command (Quick Reference)
-
-```bash
-D: && cd "ET Summer Internship\Project\Higher Speed\eagle_trans_ai_assistant_v2" && venv\Scripts\activate && streamlit run app.py --server.port 8502
-```
-
----
-
 ## Example Questions to Ask
 
 **From the Germany SOP:**
