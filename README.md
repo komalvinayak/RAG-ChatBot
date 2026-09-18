@@ -1,4 +1,4 @@
-# Eagle Trans AI Knowledge Assistant
+# Proof of Concept - Eagle Trans AI Knowledge Assistant
 
 > An internal AI-powered chatbot for the Germany Export Operations team at Eagle Trans Europe.
 > Built as a Proof of Concept during a Summer Internship (June–July 2026).
