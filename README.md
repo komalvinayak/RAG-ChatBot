@@ -451,6 +451,7 @@ MBA Business Analytics — Akal University, Talwandi Sabo
 Summer Intern — Europe Export Operations
 Xenage Solutions Pvt. Ltd. (Eagle Inbrit Group), Pune
 June – July 2026
+**Under The Guidance of Prof. Somendra Pant**
 
 GitHub: [komalvinayak](https://github.com/komalvinayak)
 
