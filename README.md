@@ -22,6 +22,8 @@ This assistant makes all of that searchable in plain English. You type a questio
 
 ## How It Works — Simple Flow
 
+![Alt Text](Flow.jpeg)
+
 ```
                     ┌─────────────────────────────────┐
                     │      PHASE 1 — SETUP (Once)     │
@@ -73,7 +75,10 @@ This assistant makes all of that searchable in plain English. You type a questio
 ```
 
 ---
-
+## Screenshots
+![Alt Text](Screenshot1.png)
+![Alt Text](Screenshot2.png)
+![Alt Text](Screenshot3.png)
 ## What It Reads
 
 | Document | Type | What It Contains |
