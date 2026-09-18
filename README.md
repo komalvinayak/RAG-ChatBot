@@ -75,6 +75,9 @@ This assistant makes all of that searchable in plain English. You type a questio
 ```
 
 ---
+
+<video src="Final_Demo.mp4" controls width="100%"></video>
+
 ## Screenshots
 ![Alt Text](Screenshot1.png)
 ![Alt Text](Screenshot2.png)
